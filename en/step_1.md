@@ -1,59 +1,21 @@
-## Introduction
+If you want your micro:bit & MakeCode projects to repeatedly do something, you will need a loop that repeats for the whole time your code is running. For this you can use a `forever`{:class='microbitbasic'} loop. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+#### Where to get a forever loop
 
-### What you will make
+All new MakeCode projects come with a `forever`{:class='microbitbasic'} block by default, but if you delete it you can find it again in the `Basic`{:class='microbitbasic'} menu of the Toolbox. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+<img src="images/forever-location.png" alt="The Basic menu with the `forever` block highlighted" width="350"/>
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+#### Using the forever loop
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+This loop will repeat the **whole time** your project is running, again and again. So any code blocks you put inside the forever loop will run everytime the loop goes around. 
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+You used a `forever`{:class='microbitbasic'} loop to play sounds in the Music Player project. 
 
-+ A computer or tablet capable of running Scratch 3
+<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_DLYiFJcMrebk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-### Software
+You also used a forever loop to check for movement in the Sleep tracker project. 
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+<div style="position:relative;height:calc(170px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_VooFR6cseED5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+In both these projects you needed sections of code to keep on repeating, and a `forever`{:class='microbitbasic'} loop is perfect for that.
