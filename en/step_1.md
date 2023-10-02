@@ -10,14 +10,38 @@ All new MakeCode projects come with a `forever`{:class='microbitbasic'} block by
 
 This loop will repeat the **whole time** your project is running, again and again. So any code blocks you put inside the forever loop will run everytime the loop goes around. 
 
-You used a `forever`{:class='microbitbasic'} loop to play sounds in the Music Player project. <br>
+You used a `forever`{:class='microbitbasic'} loop to play sounds in the Music Player project.
 
-<div style="position:relative;height:calc(250px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_DLYiFJcMrebk" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-<br>
+```microbit
+basic.forever(function () {
+    let tune = 0
+    if (tune == 1) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.UntilDone)
+        basic.showIcon(IconNames.Duck)
+    } else if (tune == 2) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Punchline), music.PlaybackMode.UntilDone)
+    } else if (tune == 3) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Birthday), music.PlaybackMode.UntilDone)
+    } else if (tune == 4) {
+        music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Baddy), music.PlaybackMode.UntilDone)
+    }
+})
+```
 
-You also used a forever loop to check for movement in the Sleep tracker project. <br>
+You also used a forever loop to check for movement in the Sleep tracker project.
 
-<div style="position:relative;height:calc(170px + 5em);width:100%;overflow:hidden;"><iframe style="position:relative;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_VooFR6cseED5" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
-<br>
+```microbit
+let restingPosition = 0
+let movements = 0
+basic.forever(function () {
+    if (input.rotation(Rotation.Roll) < restingPosition - 10 || input.rotation(Rotation.Roll) > restingPosition + 10) {
+        movements += 1
+        basic.showIcon(IconNames.Heart)
+        basic.pause(100)
+        restingPosition = input.rotation(Rotation.Roll)
+        basic.clearScreen()
+    }
+})
+```
 
 In both these projects you needed sections of code to keep on repeating, and a `forever`{:class='microbitbasic'} loop is perfect for that.
