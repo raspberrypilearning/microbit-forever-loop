@@ -1,16 +1,16 @@
-If you want your micro:bit and MakeCode projects to repeatedly do something, you will need a loop that repeats for the whole time your code is running. For this, you can use a `forever`{:class='microbitbasic'} loop.
+Als je wilt dat je micro:bit en MakeCode projecten een activiteit de hele tijd achter elkaar uitvoert, heb je een lus nodig die dat herhaalt gedurende de hele tijd dat je code wordt uitgevoerd. Hiervoor kun je een `de hele tijd`{:class='microbitbasic'} lus gebruiken.
 
-#### Where to get a forever loop
+#### Waar kun je de 'de hele tijd' lus vinden
 
-All new MakeCode projects come with a `forever`{:class='microbitbasic'} block by default, but if you delete it you can find it again in the `Basic`{:class='microbitbasic'} menu of the Toolbox.
+Alle nieuwe MakeCode projecten hebben standaard een `de hele tijd`{:class='microbitbasic'} blok, maar als je het per ongeluk verwijderd hebt, kun je het terugvinden in het menu `Basis`{:class='microbitbasic'} van de Toolbox.
 
 <img src="images/forever-location.png" alt="The Basic menu with the `forever` block highlighted." width="350"/>
 
-#### How to use the forever loop
+#### Hoe kun je een de hele tijd-lus gebruiken
 
-This loop will repeat the **whole time** your project is running, again and again. So any code blocks you put inside the forever loop will run everytime the loop goes around.
+Deze lus herhaalt de **hele tijd** zolang je project wordt uitgevoerd, keer op keer. Dus alle codeblokken die je in de hele tijd-lus plaatst, worden uitgevoerd elke keer als de lus rondgaat.
 
-For example, a `forever`{:class='microbitbasic'} loop is used to play sounds in the Music player project.
+Bijvoorbeeld, een `de hele tijd`{:class='microbitbasic'} lus wordt gebruikt om geluiden af te spelen in het muziekspeler project.
 
 ```microbit
 basic.forever(function () {
@@ -28,7 +28,7 @@ basic.forever(function () {
 })
 ```
 
-You also used a forever loop to check for movement in the Sleep tracker project.
+Je hebt ook een de hele tijd lus gebruikt om te controleren of er bewegingen waren in het Slaap-monitor project.
 
 ```microbit
 let restingPosition = 0
@@ -44,4 +44,4 @@ basic.forever(function () {
 })
 ```
 
-In both these projects, you needed sections of code to keep on repeating, and a `forever`{:class='microbitbasic'} loop is perfect for that.
+In beide projecten had je delen code nodig die moesten blijven herhalen, en een `de hele tijd`{:class='microbitbasic'} lus is daar perfect voor.
