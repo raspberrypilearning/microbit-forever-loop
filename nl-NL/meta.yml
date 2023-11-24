@@ -1,4 +1,4 @@
-title: Forever loop
+title: Herhaal de hele tijd-lussen
 hero_image: images/banner.png
 description: default-project-template description
 version: 4
@@ -7,4 +7,4 @@ copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: The forever loop in MakeCode
+    title: De hele tijd-lus in MakeCode
