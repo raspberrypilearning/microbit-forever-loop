@@ -1,12 +1,12 @@
 Si tu souhaites que tes projets micro:bit et MakeCode effectuent quelque chose de manière répétée, tu auras besoin d'une boucle qui se répète pendant toute la durée d'exécution de ton code. Pour cela, tu peux utiliser une boucle `toujours`{:class='microbitbasic'}.
 
-#### Où trouver la boucle toujours
+### Où trouver la boucle toujours
 
 Tous les nouveaux projets MakeCode sont fournis avec un bloc `toujours`{:class='microbitbasic'} par défaut, mais si tu le supprimes, tu peux le retrouver dans le menu `Base`{:class='microbitbasic'} de la boîte à outils.
 
 <img src="images/forever-location.png" alt="The Basic menu with the `forever` block highlighted." width="350"/>
 
-#### Comment utiliser la boucle toujours
+### Comment utiliser la boucle toujours
 
 Cette boucle se répétera **toute la durée** d'exécution de ton projet, encore et encore. Ainsi, tous les blocs de code que tu places dans la boucle toujours s'exécuteront à chaque fois que la boucle fera une boucle.
 
