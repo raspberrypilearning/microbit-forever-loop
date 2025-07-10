@@ -1,16 +1,16 @@
-If you want your micro:bit and MakeCode projects to repeatedly do something, you will need a loop that repeats for the whole time your code is running. For this, you can use a `forever`{:class='microbitbasic'} loop.
+Si tu souhaites que tes projets micro:bit et MakeCode effectuent quelque chose de manière répétée, tu auras besoin d'une boucle qui se répète pendant toute la durée d'exécution de ton code. Pour cela, tu peux utiliser une boucle `toujours`{:class='microbitbasic'}.
 
-#### Where to get a forever loop
+#### Où trouver la boucle toujours
 
-All new MakeCode projects come with a `forever`{:class='microbitbasic'} block by default, but if you delete it you can find it again in the `Basic`{:class='microbitbasic'} menu of the Toolbox.
+Tous les nouveaux projets MakeCode sont fournis avec un bloc `toujours`{:class='microbitbasic'} par défaut, mais si tu le supprimes, tu peux le retrouver dans le menu `Base`{:class='microbitbasic'} de la boîte à outils.
 
 <img src="images/forever-location.png" alt="The Basic menu with the `forever` block highlighted." width="350"/>
 
-#### How to use the forever loop
+#### Comment utiliser la boucle toujours
 
-This loop will repeat the **whole time** your project is running, again and again. So any code blocks you put inside the forever loop will run everytime the loop goes around.
+Cette boucle se répétera **toute la durée** d'exécution de ton projet, encore et encore. Ainsi, tous les blocs de code que tu places dans la boucle toujours s'exécuteront à chaque fois que la boucle fera une boucle.
 
-For example, a `forever`{:class='microbitbasic'} loop is used to play sounds in the Music player project.
+Par exemple, une boucle `toujours`{:class='microbitbasic'} est utilisée pour lire des sons dans le projet Lecteur de musique.
 
 ```microbit
 basic.forever(function () {
@@ -28,7 +28,7 @@ basic.forever(function () {
 })
 ```
 
-You also used a forever loop to check for movement in the Sleep tracker project.
+Tu as également utilisé une boucle toujours pour vérifier les mouvements dans le projet Suivi du sommeil.
 
 ```microbit
 let restingPosition = 0
@@ -44,4 +44,4 @@ basic.forever(function () {
 })
 ```
 
-In both these projects, you needed sections of code to keep on repeating, and a `forever`{:class='microbitbasic'} loop is perfect for that.
+Dans ces deux projets, tu avais besoin de sections de code pour continuer à répéter, et une boucle `toujours`{:class='microbitbasic'} est parfaite pour cela.
