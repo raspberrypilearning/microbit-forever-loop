@@ -3,3 +3,5 @@ musique
 mouvements
 
 positionRepos
+
+The Basic menu with the `forever` block highlighted.
