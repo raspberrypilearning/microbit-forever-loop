@@ -1,12 +1,12 @@
 Als je wilt dat je micro:bit en MakeCode projecten een activiteit de hele tijd achter elkaar uitvoert, heb je een lus nodig die dat herhaalt gedurende de hele tijd dat je code wordt uitgevoerd. Hiervoor kun je een `de hele tijd`{:class='microbitbasic'} lus gebruiken.
 
-#### Waar kun je de 'de hele tijd' lus vinden
+### Waar kun je de 'de hele tijd' lus vinden
 
 Alle nieuwe MakeCode projecten hebben standaard een `de hele tijd`{:class='microbitbasic'} blok, maar als je het per ongeluk verwijderd hebt, kun je het terugvinden in het menu `Basis`{:class='microbitbasic'} van de Toolbox.
 
 <img src="images/forever-location.png" alt="The Basic menu with the `forever` block highlighted." width="350"/>
 
-#### Hoe kun je een de hele tijd-lus gebruiken
+### Hoe kun je een de hele tijd-lus gebruiken
 
 Deze lus herhaalt de **hele tijd** zolang je project wordt uitgevoerd, keer op keer. Dus alle codeblokken die je in de hele tijd-lus plaatst, worden uitgevoerd elke keer als de lus rondgaat.
 
